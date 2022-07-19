@@ -1,4 +1,4 @@
-int func(List numbers) {
+num func(List numbers) {
   num s = 0;
   for(int i = 0; numbers.length>i; i+=1){
     s += numbers[i];
