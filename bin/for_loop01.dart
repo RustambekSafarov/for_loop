@@ -1,5 +1,5 @@
 int func(List numbers) {
-  int s = 0;
+  num s = 0;
   for(int i = 0; numbers.length>i; i+=1){
     s += numbers[i];
   }
