@@ -14,7 +14,7 @@ Args:
 Return: 
   Int: answer
 */
-  return 0;
+  return y;
 }
 
 void main() {}
