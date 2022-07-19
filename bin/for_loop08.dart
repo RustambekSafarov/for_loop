@@ -1,4 +1,12 @@
 int func(List<int> numbers, int k, int n) {
+  int s = 0;
+  int x = numbers.length;
+  for(int i = k; i < n; i += 1){
+    if(numbers[i].isOdd){
+      s += numbers[i];
+    }
+    //s += numbers[i];
+  }
 /*
    Given the list of numbers, return the sum of the odd numbers between k and n in the list
 Args:
@@ -8,7 +16,7 @@ Args:
 Return: 
   Int: answer
 */
-  return 0;
+  return s;
 }
 
 void main() {}
